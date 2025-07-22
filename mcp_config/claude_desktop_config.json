@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "solveit_mcp_server": {
+      "autoApprove": [],
+      "disabled": false,
+      "timeout": 60,
+      "command": "python3",
+      "args": [
+        "/FULL-PATH-TO-YOUR_MCP_SERVER_FOLDER/solve_it_mcp/src/server.py"
+      ],
+      "env": {
+        "SOLVE_IT_DATA_PATH": "/FULL-PATH-TO-YOUR_MCP_SERVER_FOLDER/solve-it-main/data",
+        "LOG_LEVEL": "INFO",
+  	    "LOG_TO_FILE": "true",
+  	    "LOG_FILE_PATH": "FULL-PATH-TO-YOUR-LOGGING-FOLDER/solve-it-log.log",
+  	    "LOG_FORMAT": "human"
+      },
+      "transportType": "stdio"
+    }
+  }
+}
