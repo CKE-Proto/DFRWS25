@@ -1,0 +1,32 @@
+[
+  {
+    "code": "INCOMP",
+    "canonicalName": "Incompleteness",
+    "meaning": "The forensic tool failed to acquire, locate, or return all of the relevant information."
+   },
+  {
+    "code": "INAC-EX",
+    "canonicalName": "Inaccuracy – Existence",
+    "meaning": "The tool reports something that is not actually present (false positive) or omits an item that is present (false negative about existence)."
+   },
+  {
+    "code": "INAC-ALT",
+    "canonicalName": "Inaccuracy – Alteration",
+    "meaning": "The tool alters data in a way that changes its meaning or context."
+  },
+  {
+    "code": "INAC-AS",
+    "canonicalName": "Inaccuracy – Association",
+    "meaning": "The tool groups unrelated items together or splits related ones, producing incorrect relationships."
+  },
+  {
+    "code": "INAC-COR",
+    "canonicalName": "Inaccuracy – Corruption",
+    "meaning": "The tool fails to detect or compensate for missing/corrupted data, or misreports corrupt segments as valid."
+ },
+  {
+    "code": "MISINT",
+    "canonicalName": "Misinterpretation",
+    "meaning": "The examiner or downstream consumer misunderstands the results, or the tool’s presentation is misleading."
+  }
+]

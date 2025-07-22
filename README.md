@@ -10,3 +10,6 @@
 - Example scripts for interacting with the SOLVE-IT library are in example_scripts.
 - In the same folder there are also two Jupyter notebook files that contain similar content to those scripts.
 - You'll need a copy of the SOLVE-IT repo to use these scripts. Make sure the import statement properly locates your copy of the SOLVE-IT repo and its library. 
+
+## Prompt Chain
+- There is an example of a simple, two-step prompt chain in this folder.
